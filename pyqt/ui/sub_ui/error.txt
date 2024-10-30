@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "I:\Code\RSSDAO\packeg\GitHub\FluentDesigner_v1.3.3\plugins\basic_input_plugin.py", line 5, in <module>
+    from qfluentwidgets import (PrimaryPushButton, SplitPushButton, DropDownPushButton,
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python311\site-packages\qfluentwidgets\__init__.py", line 18, in <module>
+    from .components import *
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python311\site-packages\qfluentwidgets\components\__init__.py", line 1, in <module>
+    from .dialog_box import *
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python311\site-packages\qfluentwidgets\components\dialog_box\__init__.py", line 1, in <module>
+    from .color_dialog import ColorDialog
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python311\site-packages\qfluentwidgets\components\dialog_box\color_dialog.py", line 7, in <module>
+    from ...common.style_sheet import FluentStyleSheet, isDarkTheme
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python311\site-packages\qfluentwidgets\common\__init__.py", line 3, in <module>
+    from .auto_wrap import TextWrap
+  File "C:\Users\Administrator\AppData\Roaming\Python\Python311\site-packages\qfluentwidgets\common\auto_wrap.py", line 5, in <module>
+    from unicodedata import east_asian_width
+ModuleNotFoundError: No module named 'unicodedata'
